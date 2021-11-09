@@ -180,6 +180,12 @@ char* filter_CAPS_ONLY(char* text)
 }
 
 
+
+/*
+ * Function implemented to create a suitable key for the Viegenere encryption algorithm. It can be used also to 
+ *
+ *
+ */
 char* key_Correction(char** txt, int size)
 {
 	char* text = *txt;
